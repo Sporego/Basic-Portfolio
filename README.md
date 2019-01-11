@@ -1,2 +1,2 @@
-# me
-Prototype of personal website
+csgo-practice-mode
+===========================
