@@ -1,4 +1,12 @@
 body {
-    background-image: url(../images/prism.png);
     background-color: #ffffff;
 }
+
+header {
+    background-image: none;
+}
+
+.prism {
+    background-image: url(/assets/images/prism.png);
+}
+    
