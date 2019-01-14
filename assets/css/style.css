@@ -3,10 +3,40 @@ body {
 }
 
 header {
-    background-image: none;
+}
+
+h1 {
+    float: left;
+    text-align: center;
+    padding: 30px;
+}
+
+nav {
+    float: right;
+    padding: 30px;
+}
+
+a {
+    padding: 30px
 }
 
 .prism {
-    background-image: url(/assets/images/prism.png);
+    background-image: url(../images/prism.png);
 }
-    
+
+footer {
+    text-align: center
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.bar {
+    max-width: 50%;
+    margin: auto;
+    background-image: none;
+    background-color: #ffffff;
+}
