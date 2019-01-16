@@ -3,12 +3,17 @@ body {
 }
 
 header {
+    border-bottom-width: 5px;
+    border-style: groove;
+    border-color: gray;
 }
 
 h1 {
     float: left;
     text-align: center;
-    padding: 30px;
+    padding: 30px 40px;
+    background-color: #4aaaa5;
+    color:#ffffff;
 }
 
 nav {
@@ -35,8 +40,25 @@ footer {
   }
 
 .bar {
-    max-width: 50%;
+    max-width: 66%;
     margin: auto;
     background-image: none;
     background-color: #ffffff;
+}
+
+.button {
+    background-color: #ffffff;
+    border: none;
+    color: gray;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.25em;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.cbttn {
+    
 }
