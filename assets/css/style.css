@@ -89,4 +89,5 @@ h1 {
 .sporego {
     width: 6em;
     height: auto;
+    align-self: flex-end;
 }
