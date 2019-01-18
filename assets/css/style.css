@@ -5,26 +5,27 @@
 header {
     justify-content: space-between;
     background-color: white;
+    width: 960px;
 }
 
 body {
     background-image: url(../images/background.png);
     margin: 0 auto;
-    max-width: 960px;
 }
 
 footer {
     text-align: center;
     width: 100%;
     background-color: #666666;
-    border-top: 0.25em solid #4aaaa5;
-    padding: 1em 0em 1em 0em;
+    border-top: 0.5em solid #4aaaa5;
+    padding: 2em 0em 0em 0em;
 }
 
 #name {
     color: #ffffff;
     background-color: #4aaaa5;
     padding: 0.75em;
+    margin: 0em;
 }
 
 .vb {
@@ -35,6 +36,8 @@ footer {
 #about {
     flex-direction: column;
     background-color: white;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .rightb {
@@ -50,5 +53,12 @@ footer {
 }
 
 p {
+}
+
+.aeT {
+    background-color: #ffffff;
+    justify-content: center;
+    display: flex;
+    border-bottom: 0.2em solid gray;
 }
 
