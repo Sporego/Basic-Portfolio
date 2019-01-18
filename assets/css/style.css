@@ -16,6 +16,9 @@ body {
 footer {
     text-align: center;
     width: 100%;
+    background-color: #666666;
+    border-top: 0.25em solid #4aaaa5;
+    padding: 1em 0em 1em 0em;
 }
 
 #name {
