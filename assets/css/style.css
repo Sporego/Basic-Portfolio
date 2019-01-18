@@ -69,3 +69,8 @@ p {
     border-bottom: 0.2em solid gray;
 }
 
+h1 {
+    color: #4aaaa5;
+    background-color: #ffffff;
+    padding: 0.5em;
+}
