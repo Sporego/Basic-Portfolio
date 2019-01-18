@@ -22,6 +22,19 @@ footer {
     padding: 0.75em;
 }
 
+.vb {
+    width: 2px;
+    border-color: gray;
+}
+
+#about {
+    flex-direction: column;
+}
+
+.rightb {
+    border-right: .1em solid gray;
+}
+
 .navl {
     padding: 0.75em;
     align-self: center;
@@ -30,11 +43,5 @@ footer {
     color: gray;
 }
 
-.vb {
-    width: 2px;
-    border-color: gray;
-}
-
-#about {
-    flex-direction: column;
+p {
 }
