@@ -62,6 +62,9 @@ footer {
 
 p {
     line-height: 1.6;
+    float: left;
+    display: inline;
+    margin: 0;
 }
 
 .aeT {
@@ -87,7 +90,11 @@ h1 {
 }
 
 .sporego {
-    width: 6em;
-    height: auto;
-    align-self: flex-end;
+    width: 128px;
+    height: 128px;
+    float: left;
+}
+
+.auto {
+    overflow: hidden;
 }
