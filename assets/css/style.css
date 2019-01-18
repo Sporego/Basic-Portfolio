@@ -5,17 +5,17 @@
 header {
     justify-content: space-between;
     background-color: white;
-
 }
 
 body {
+    background-image: url(../images/background.png);
     margin: 0 auto;
     max-width: 960px;
-    background-image: url(../images/background.png);
 }
 
 footer {
     text-align: center;
+    width: 100%;
 }
 
 #name {
@@ -47,4 +47,8 @@ footer {
 }
 
 p {
+}
+
+#aboutb {
+    background-image: url(../images/background.png);
 }
