@@ -21,7 +21,7 @@ footer {
     border-top: 0.5em solid #4aaaa5;
     padding: 2em 0em 0em 0em;
     flex-shrink: 0;
-    position: absolute;
+    position: relative;
     right: 0;
     bottom: 0;
     left: 0;
@@ -103,6 +103,8 @@ h1 {
     position: relative;
     text-align: center;
     color: white;
+    height: 300px;
+    width: 300px;
   }
 
 .centered {
@@ -110,4 +112,17 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color:white;
+    background-color: #4aaaa5;
+
+}
+
+.icon {
+    height: 256px;
+    width: 256px;
+}
+
+.imageflex {
+    flex-flow: column wrap;
+    height: 600px;
 }
